@@ -1,4 +1,9 @@
-background
+body
 {
-background-color: rgb(10, 10, 10);
+background-color:aqua;
+}
+h1{
+    text-align: center;
+    color: brown;
+    font-size: large;
 }
