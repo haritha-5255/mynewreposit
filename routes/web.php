@@ -16,7 +16,8 @@ use app\Http\Controllers\testcontroler;
 
 Route::get('/', function () {
    // return view('welcome');
-    return view('test1');
+   // return view('table');
+   return view('navbar');
 
 });
 Route::view('/home2','test');
