@@ -15,8 +15,11 @@ use app\Http\Controllers\testcontroler;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+   // return view('welcome');
+    return view('test1');
+
 });
 Route::view('/home2','test');
 #to control
 Route::get('/profile',[testcontroler::class,'TestFun']);
+Route:: view('/test1', 'test');
